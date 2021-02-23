@@ -1,0 +1,77 @@
+//************************************************
+		EXPRESIONES REGULARES
+************************************************//
+
+- (www.regexr.com) - Página para probar tus Exp.Reg.
+
+
+Comienzan y acaban por "/" seguido por una letra o no "g/i/m/s/u/y"
+
+	-g: global -- busca todas las coincidencias
+	-i: case insensitive -- no distingue mayus o minus
+	-m: multiline --
+	-s: single line --
+	-u: unicode --
+	-y: sticky --
+
+//********************
+    Coincidencias:
+********************//
+	.       - Cualquier Caracter, excepto nueva linea
+	\d      - Cualquier Digitos (0-9)
+	\D      - Todo lo que No es un Digito (0-9)
+	\w      - Caracter de Palabra (a-z, A-Z, 0-9, _)
+	\W      - Todo lo que No es un Caracter de Palabra.
+	\s      - Espacios de cualquier tipo. (espacio, tab, nueva linea)
+	\S      - Todo lo que No es un Espacio, Tab o nueva linea.
+
+
+//*********************
+    Cuantificadores
+*********************//
+	*       - 0 o Más
+	+       - 1 o Más
+	?       - 0 o Uno
+	{3}     - Numero Exacto
+	{3,4}   - Rango de Numeros (Mínimo, Máximo)
+
+
+//*********************
+       Limites
+*********************//
+	\b      - Limite de Palabra
+	\B      - Todo lo que No es un Limite de Palabra
+	^       - Inicio de una cadena de texto
+	$       - Final de una cadena de texto
+
+//***************************
+   Conjunto de Caracteres
+	   y
+        Grupos
+***************************//
+	[]      - Caracteres dentro de los brackets
+	[^]    - Caracteres que NO ESTAN dentro de los brackets
+
+	()     - Grupo
+	|       - Uno u otro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
