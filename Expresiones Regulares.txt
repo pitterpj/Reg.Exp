@@ -54,24 +54,3 @@ Comienzan y acaban por "/" seguido por una letra o no "g/i/m/s/u/y"
 
 	()     - Grupo
 	|       - Uno u otro
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
